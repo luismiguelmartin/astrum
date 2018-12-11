@@ -69,12 +69,12 @@
           ]
       },{
             "name": "pagination",
-            "title": "Paginaciones",
+            "title": "Paginación de resultados",
             "components": [
                 {
                     "group": "pagination",
                     "name": "paginacion",
-                    "title": "Paginación"
+                    "title": "Paginación por defecto"
                 },
                 {
                     "group": "pagination",
