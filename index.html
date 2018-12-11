@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en" class="ndpl-c-background">
+<html lang="es_ES" class="ndpl-c-background">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
 
-        <title v-text="project_name ? project_name + ' | Pattern Library' : 'Pattern Library'"></title>
+        <title v-text="project_name ? project_name + ' | Bootstrap Aplicaciones' : 'Pattern Library'"></title>
 
         <!-- Astrum (https://github.com/NoDivide/astrum) -->
         <meta name="application-name" content="Astrum {{ version }}" />
@@ -67,7 +67,7 @@
             <div class="ndpl-cube3 ndpl-cube"></div>
         </div>
 
-        <h3 class="ndpl-loading__title" v-if="! loaded && !log.error.length && !log.info.length">Building pattern library...</h3>
+        <h3 class="ndpl-loading__title" v-if="! loaded && !log.error.length && !log.info.length">Construyendo...</h3>
         <h3 class="ndpl-loading__title" v-if="log.error.length">Hold up! We have some errors...</h3>
         <h3 class="ndpl-loading__title" v-if="log.info.length && !log.error.length">Looks like you have some setup to do...</h3>
 
