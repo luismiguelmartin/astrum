@@ -1,0 +1,1 @@
+Paginación de los resultados

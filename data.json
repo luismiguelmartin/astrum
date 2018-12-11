@@ -25,7 +25,7 @@
         "max_width": null,
         "titles": {
             "library_title": "Boostrap Aplicaciones",
-            "pages_title": "Visión General",
+            "pages_title": "Información",
             "components_title": "Componentes"
         }
     },
@@ -53,22 +53,62 @@
                 "name": "introduccion",
                 "title": "Introducción",
                 "file": "./pages/intro.md"
+            },
+            {
+                "name": "acerca",
+                "title": "Acerca",
+                "file": "./pages/acerca.md"
             }
         ]
     },
     "groups": [
-        {
-            "name": "navegacion",
-            "title": "Navegación",
+      {
+          "name": "navegacion",
+          "title": "Navegación",
+          "components": [
+              {
+                  "group": "navegacion",
+                  "name": "navegacion-superior",
+                  "title": "Navegación Superior"
+              }
+          ]
+      },{
+            "name": "pagination",
+            "title": "Paginaciones",
             "components": [
                 {
-                    "group": "navegacion",
-                    "name": "navegacion-superior",
-                    "title": "Navegación Superior",
-                    "options": {
-                        "sample_dark_background": false,
-                        "disable_code_sample": false
-                    }
+                    "group": "pagination",
+                    "name": "paginacion",
+                    "title": "Paginación"
+                },
+                {
+                    "group": "pagination",
+                    "name": "paginacion-izquierda",
+                    "title": "Paginación a la izquierda",
+                    "width": "half"
+                },
+                {
+                    "group": "pagination",
+                    "name": "paginacion-derecha",
+                    "title": "Paginación a la derecha",
+                    "width": "half"
+                },
+                {
+                    "group": "pagination",
+                    "name": "paginacion-small",
+                    "title": "Paginación alternativa"
+                },
+                {
+                    "group": "pagination",
+                    "name": "paginacion-small-izquierda",
+                    "title": "Paginación alternativa a la izquierda",
+                    "width": "half"
+                },
+                {
+                    "group": "pagination",
+                    "name": "paginacion-small-derecha",
+                    "title": "Paginación alternativa a la derecha",
+                    "width": "half"
                 }
             ]
         }
