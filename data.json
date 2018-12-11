@@ -8,8 +8,8 @@
     "client_url": null,
     "creators": [
         {
-            "name": null,
-            "url": null
+            "name": "Luis Miguel Martín",
+            "url": "lm.martin@preving.com"
         }
     ],
     "theme": {
@@ -47,17 +47,12 @@
     },
     "content": {
         "show_first_page_on_load": true,
-        "title": "Overview",
+        "title": "Introducción",
         "pages": [
             {
                 "name": "introduccion",
                 "title": "Introducción",
                 "file": "./pages/intro.md"
-            },
-            {
-                "name": "acerca",
-                "title": "Acerca",
-                "file": "./pages/acerca.md"
             }
         ]
     },
