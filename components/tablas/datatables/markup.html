@@ -1,0 +1,45 @@
+<!-- Se han de incluir las librerías de DateTables -->
+<link rel="stylesheet" type="text/css" href="../../../assets/_DataTables/datatables.min.css"/>
+<script type="text/javascript" src="../../../assets/_DataTables/datatables.min.js"></script>
+
+<!-- Inicializar la función -->
+<script type="text/javascript">
+  $(document).ready(function() {
+      $('#example').DataTable();
+  } );
+</script>
+
+<!-- Código de la tabla -->
+<table id="example" class="display table table-striped table-sm" style="width:100%">
+        <thead>
+            <tr class="bg-primary text-white">
+                <th>Name</th>
+                <th>Position</th>
+                <th>Office</th>
+                <th>Age</th>
+                <th>Start date</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Tiger Nixon</td>
+                <td>System Architect</td>
+                <td>Edinburgh</td>
+                <td>61</td>
+                <td>2011/04/25</td>
+                <td>$320,800</td>
+            </tr>
+
+        </tbody>
+        <tfoot>
+            <tr class="bg-primary text-white">
+                <th>Name</th>
+                <th>Position</th>
+                <th>Office</th>
+                <th>Age</th>
+                <th>Start date</th>
+                <th>Salary</th>
+            </tr>
+        </tfoot>
+    </table>
