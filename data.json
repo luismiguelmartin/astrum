@@ -106,6 +106,21 @@
                     "width": "half"
                 }
             ]
+        },
+        {
+            "name": "varios",
+            "title": "Varios",
+            "components": [
+                {
+                    "group": "varios",
+                    "name": "pie",
+                    "title": "Pie de página",
+                    "options": {
+                	      "sample_dark_background": true,
+                	      "disable_code_sample": true
+                    }
+                }
+            ]
         }
     ],
     "version": "1.9.5"
