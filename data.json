@@ -31,14 +31,14 @@
     },
     "assets": {
         "css": [
-            "../assets/css/theme.css",
-            "../assets/css/preving.css",
-            "../assets/_FontAwesome/css/all.min.css"
+            "./assets/css/theme.css",
+            "./assets/css/preving.css",
+            "./assets/_FontAwesome/css/all.min.css"
         ],
         "js": [
-            "../assets/js/jquery-3.3.1.slim.min.js",
-            "../assets/js/popper.min.js",
-            "../assets/js/bootstrap.min.js"
+            "./assets/js/jquery-3.3.1.slim.min.js",
+            "./assets/js/popper.min.js",
+            "./assets/js/bootstrap.min.js"
         ]
     },
     "font_libraries": {
@@ -129,6 +129,11 @@
                   "group": "buscadores",
                   "name": "buscador-cabecera-filtros",
                   "title": "Con cabecera y filtros"
+              },
+              {
+                  "group": "buscadores",
+                  "name": "resultados",
+                  "title": "Número de resultados"
               }
           ]
       },
