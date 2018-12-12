@@ -110,13 +110,25 @@
           "components": [
               {
                   "group": "buscadores",
-                  "name": "buscador",
-                  "title": "Buscador"
+                  "name": "buscador-basico",
+                  "title": "Básico (código mínimo)",
+                  "width": "half"
               },
               {
                   "group": "buscadores",
-                  "name": "buscador-filtros",
-                  "title": "Buscador con filtros"
+                  "name": "buscador-basico-bootstrap",
+                  "title": "Básico (con código Boostrap)",
+                  "width": "half"
+              },
+              {
+                  "group": "buscadores",
+                  "name": "buscador-cabecera",
+                  "title": "Con cabecera"
+              },
+              {
+                  "group": "buscadores",
+                  "name": "buscador-cabecera-filtros",
+                  "title": "Con cabecera y filtros"
               }
           ]
       },
