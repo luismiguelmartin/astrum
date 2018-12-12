@@ -36,7 +36,7 @@
             "./assets/_FontAwesome/css/all.min.css"
         ],
         "js": [
-            "./assets/js/jquery-3.3.1.slim.min.js",
+            "./assets/js/jquery-3.3.1.min.js",
             "./assets/js/popper.min.js",
             "./assets/js/bootstrap.min.js"
         ]
