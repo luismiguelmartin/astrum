@@ -112,6 +112,11 @@
                   "group": "buscadores",
                   "name": "buscador",
                   "title": "Buscador"
+              },
+              {
+                  "group": "buscadores",
+                  "name": "buscador-filtros",
+                  "title": "Buscador con filtros"
               }
           ]
       },
