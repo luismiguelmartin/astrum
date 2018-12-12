@@ -101,6 +101,11 @@
                   "group": "navegacion",
                   "name": "navegacion-superior",
                   "title": "Navegación Superior"
+              },
+              {
+                  "group": "navegacion",
+                  "name": "tabs",
+                  "title": "Pestañas"
               }
           ]
       },
