@@ -33,7 +33,7 @@
         "css": [
             "../assets/css/theme.css",
             "../assets/css/preving.css",
-            "../assets/css/fontawesome.5.5.0.all.css"
+            "../assets/_FontAwesome/css/all.min.css"
         ],
         "js": [
             "../assets/js/jquery-3.3.1.slim.min.js",
