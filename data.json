@@ -132,6 +132,11 @@
               },
               {
                   "group": "buscadores",
+                  "name": "navegador-registros",
+                  "title": "Navegador de registros"
+              },
+              {
+                  "group": "buscadores",
                   "name": "resultados",
                   "title": "Número de resultados"
               }
