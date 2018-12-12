@@ -106,6 +106,11 @@
                   "group": "navegacion",
                   "name": "tabs",
                   "title": "Pestañas"
+              },
+              {
+                  "group": "navegacion",
+                  "name": "navegador-registros",
+                  "title": "Navegador de registros"
               }
           ]
       },
@@ -134,11 +139,6 @@
                   "group": "buscadores",
                   "name": "buscador-cabecera-filtros",
                   "title": "Con cabecera y filtros"
-              },
-              {
-                  "group": "buscadores",
-                  "name": "navegador-registros",
-                  "title": "Navegador de registros"
               },
               {
                   "group": "buscadores",
