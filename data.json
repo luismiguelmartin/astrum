@@ -62,7 +62,18 @@
                   "name": "colores",
                   "title": "Colores",
                   "components": [
-                      {
+                    {
+                        "group": "colores",
+                        "name": "colores-preving",
+                        "title": "Colores Preving",
+                        "type": "colors",
+                        "colors": [
+                            "#F7901F,#FBC88F",
+                            "#004C67,#80A6B3",
+                            "#BBBDBC,#DDDEDE"
+                        ],
+                        "width": "half"
+                    },{
                           "group": "colores",
                           "name": "colores-principales",
                           "title": "Colores Principales",
@@ -73,7 +84,8 @@
                               "#a6b1b5",
                               "#e6eaf2",
                               "#FFFFFF"
-                          ]
+                          ],
+                          "width": "half"
                       },
                       {
                           "group": "colores",
