@@ -32,7 +32,8 @@
     "assets": {
         "css": [
             "../assets/css/theme.css",
-            "../assets/css/preving.css"
+            "../assets/css/preving.css",
+            "../assets/css/fontawesome.5.5.0.all.css"
         ],
         "js": [
             "../assets/js/jquery-3.3.1.slim.min.js",
@@ -100,6 +101,17 @@
                   "group": "navegacion",
                   "name": "navegacion-superior",
                   "title": "Navegación Superior"
+              }
+          ]
+      },
+      {
+          "name": "buscadores",
+          "title": "Búsquedas",
+          "components": [
+              {
+                  "group": "buscadores",
+                  "name": "buscador",
+                  "title": "Buscador"
               }
           ]
       },
