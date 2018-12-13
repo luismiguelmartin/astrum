@@ -1,6 +1,6 @@
 Por homogeneidad con el resto de las aplicaciones se incluirá el siguiente pie de página.
 
-Se construirá sobre la etiqueta `<footer>` como se muestra:
+Se construirá sobre la etiqueta `<footer>` y siempre incluirá la clase `.fixed-bottom` como se muestra a continuación:
 
 <pre><code>&lt;!-- Footer --&gt;
 &lt;footer class="footer fixed-bottom container"&gt;
@@ -10,4 +10,6 @@ Se construirá sobre la etiqueta `<footer>` como se muestra:
 &lt;/footer&gt;
 &lt;!-- /Footer --&gt;</code></pre>
 
-Se vería de la siguiente forma:
+En los siguientes ejemplos se ha eliminado dicha clase para que se pueda ver correctamente la previsualización.
+
+El pie se vería de la siguiente forma:

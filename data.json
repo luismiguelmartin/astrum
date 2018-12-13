@@ -281,7 +281,7 @@
                     "title": "Pie de página",
                     "options": {
                 	      "sample_dark_background": false,
-                	      "disable_code_sample": true
+                	      "disable_code_sample": false
                     }
                 },
                 {
@@ -290,7 +290,7 @@
                     "title": "Pie de página (con log)",
                     "options": {
                 	      "sample_dark_background": false,
-                	      "disable_code_sample": true
+                	      "disable_code_sample": false
                     }
                 }
             ]
