@@ -116,6 +116,11 @@
               },
               {
                   "group": "navegacion",
+                  "name": "navegacion-superior-select",
+                  "title": "Navegación Superior con Selector"
+              },
+              {
+                  "group": "navegacion",
                   "name": "tabs",
                   "title": "Pestañas",
                   "width": "half"
