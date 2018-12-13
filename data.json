@@ -91,6 +91,17 @@
                   ]
       },
       {
+          "name": "layout",
+          "title": "Maquetación",
+          "components": [
+              {
+                  "group": "layout",
+                  "name": "grid",
+                  "title": "Columnas"
+              }
+          ]
+      },
+      {
           "name": "botones",
           "title": "Botones",
           "components": [
