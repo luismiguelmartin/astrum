@@ -68,12 +68,14 @@
                         "title": "Colores Preving",
                         "type": "colors",
                         "colors": [
-                            "#F7901F,#FBC88F",
-                            "#004C67,#80A6B3",
-                            "#BBBDBC,#DDDEDE"
-                        ],
-                        "width": "half"
-                    },{
+                            "#F7901F,#FBC181,#FDE4C7",
+                            "#004C67,#709BAA,#C0D3D9",
+                            "#BBBDBC,#DDDEDE",
+                            "#000000,#707070",
+                            "#005BA8,#70A3CF"
+                        ]
+                    },
+                    {
                           "group": "colores",
                           "name": "colores-principales",
                           "title": "Colores Principales",

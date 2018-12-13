@@ -1,1 +1,1 @@
-Por defecto, su comportamiento siempre es _inline_.
+Por defecto, su comportamiento siempre es _inline_. Se recomienda que los botones de las aplicaciones sean todos tipo info, con la clase`.btn-info`, y el botón de la acción principal (enviar, guardar, etc.) con el color primario de la aplicación sustituyendo la clase anterior por `.btn-primary`.
