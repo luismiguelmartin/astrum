@@ -14,4 +14,4 @@ Se construirá sobre la etiqueta `<footer>` como se muestra:
 &lt;/footer&gt;
 &lt;!-- /Footer --&gt;</code></pre>
 
-Se vería de la siguiente forma (el fondo oscuro es para que se visualize mejor):
+Se vería de la siguiente forma:
