@@ -283,6 +283,15 @@
                 	      "sample_dark_background": false,
                 	      "disable_code_sample": true
                     }
+                },
+                {
+                    "group": "varios",
+                    "name": "pie-log",
+                    "title": "Pie de página (con log)",
+                    "options": {
+                	      "sample_dark_background": false,
+                	      "disable_code_sample": true
+                    }
                 }
             ]
         }
