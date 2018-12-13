@@ -93,7 +93,7 @@
                           "title": "Colores de aplicaciones",
                           "type": "colors",
                           "colors": [
-                              "#7da9f9,#507ed3, #306ca0",
+                              "#7da9f9,#507ed3",
                               "#f469a7,#c14c80",
                               "#60ceb8,#3fa18d",
                               "#f5d13f,#f5a63f",
@@ -117,7 +117,14 @@
               {
                   "group": "navegacion",
                   "name": "tabs",
-                  "title": "Pestañas"
+                  "title": "Pestañas",
+                  "width": "half"
+              },
+              {
+                  "group": "navegacion",
+                  "name": "tabs-avanzadas",
+                  "title": "Pestañas Avanzadas",
+                  "width": "half"
               },
               {
                   "group": "navegacion",
