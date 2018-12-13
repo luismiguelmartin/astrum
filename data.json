@@ -77,21 +77,7 @@
                     },
                     {
                           "group": "colores",
-                          "name": "colores-principales",
-                          "title": "Colores Principales",
-                          "type": "colors",
-                          "colors": [
-                              "#4c4c4c",
-                              "#7d8284",
-                              "#a6b1b5",
-                              "#e6eaf2",
-                              "#FFFFFF"
-                          ],
-                          "width": "half"
-                      },
-                      {
-                          "group": "colores",
-                          "name": "colores-secundarios",
+                          "name": "colores-aplicaciones",
                           "title": "Colores de aplicaciones",
                           "type": "colors",
                           "colors": [
@@ -99,10 +85,7 @@
                               "#f469a7,#c14c80",
                               "#60ceb8,#3fa18d",
                               "#f5d13f,#f5a63f",
-                              "#e199e5,#c776cb",
-                              "#7daFFF,#507fff",
-                              "#f46fff,#c14FFF",
-                              "#60cfff,#3fafff"
+                              "#e199e5,#c776cb"
                           ]
                       }
                   ]
