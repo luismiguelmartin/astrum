@@ -1,1 +1,1 @@
-Añadiendo la clase `btn-block`. Cambia a _block_.
+Añadiendo la clase `.btn-block`. Cambia a _block_.

@@ -113,16 +113,18 @@
               {
                   "group": "botones",
                   "name": "standard",
-                  "title": "Solidos"
+                  "title": "Botones estándar de apliaciones",
+                  "width": "half"
               },
               {
                   "group": "botones",
                   "name": "outline",
-                  "title": "Contorneados",
+                  "title": "Botones contorneados (no recomendados)",
                   "options": {
                       "sample_dark_background": true,
                       "disable_code_sample": false
-                  }
+                  },
+                  "width": "half"
               },
               {
                   "group": "botones",

@@ -1,1 +1,1 @@
-Añadiendo la clase `btn-sm`.
+Añadiendo la clase `.btn-sm`. No deben mezclarse tamaños.
