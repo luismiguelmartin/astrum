@@ -3,36 +3,41 @@
 <head>
   <link rel="stylesheet" type="text/css" href="../../../assets/css/theme.css" />
   <link rel="stylesheet" type="text/css" href="../../../assets/css/preving.css" />
-  <script type="text/javascript" src="../../../assets/js/jquery-3.3.1.slim.min.js"></script>
+  <script type="text/javascript" src="../../../assets/js/jquery-3.3.1.min.js"></script>
   <script type="text/javascript" src="../../../assets/js/bootstrap.min.js"></script>
-
-  <link rel="stylesheet" type="text/css" href="../../../assets/_DataTables/datatables.min.css" />
-  <script type="text/javascript" src="../../../assets/_DataTables/datatables.min.js"></script>
-
+<!-- Librerías exclusivas de DataTables -->
+  <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css" />
+  <script type="text/javascript" src="//cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+  <script type="text/javascript" src="//cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js"></script>
+<!-- /Librerías exclusivas de DataTables -->
   <script type="text/javascript">
     $(document).ready(function() {
-      $('#example').DataTable();
+      $('#example').DataTable({
+        "language": {
+                "url": "//cdn.datatables.net/plug-ins/1.10.19/i18n/Spanish.json" // Archivo de traducción
+        }
+      });
     });
   </script>
   <style type="text/css">
     #example th,
     #example td {
-      font-size: 0.8rem !important;
-      padding: 0.3rem !important;
+      font-size: 12px !important;
+      padding: 0.4rem !important;
     }
   </style>
 </head>
 
 <body class="m-3">
-  <table id="example" class="display table table-striped table-sm"">
+  <table id="example" class="display table table-striped table-sm">
         <thead>
             <tr class=" bg-primary text-white">
-    <th>Name</th>
-    <th>Position</th>
-    <th>Office</th>
-    <th>Age</th>
-    <th>Start date</th>
-    <th>Salary</th>
+              <th>Nombre</th>
+              <th>Cargo</th>
+              <th>Oficina</th>
+              <th>Edad</th>
+              <th>Fecha</th>
+              <th>Presupuesto</th>
     </tr>
     </thead>
     <tbody>
@@ -144,12 +149,12 @@
     </tbody>
     <tfoot>
       <tr class="bg-primary text-white">
-        <th>Name</th>
-        <th>Position</th>
-        <th>Office</th>
-        <th>Age</th>
-        <th>Start date</th>
-        <th>Salary</th>
+        <th>Nombre</th>
+        <th>Cargo</th>
+        <th>Oficina</th>
+        <th>Edad</th>
+        <th>Fecha</th>
+        <th>Presupuesto</th>
       </tr>
     </tfoot>
   </table>
