@@ -1,0 +1,1 @@
+Las ventanas modales son elementos versátiles que se pueden utilizar para agregar cuadros de diálogo, confirmaciones y notificaciones a los usuarios o contenido completamente personalizado. El código básico para crear una es el siguiente:

@@ -281,6 +281,26 @@
             ]
         },
         {
+            "name": "modales",
+            "title": "Modales",
+            "components": [
+                {"group": "modales",
+                  "name": "modal-basica",
+                  "title": "Modal básica"
+                },
+                {"group": "modales",
+                  "name": "modal-tamanos",
+                  "title": "Tamaños diferentes y centrada verticalmente",
+                  "width": "half"
+                },
+                {"group": "modales",
+                  "name": "modal-avanzada",
+                  "title": "Modales Avanzadas",
+                  "width": "half"
+                }
+            ]
+        },
+        {
             "name": "varios",
             "title": "Varios",
             "components": [

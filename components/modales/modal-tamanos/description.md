@@ -1,0 +1,1 @@
+Las ventanas modales pueden tener varios tamaños: normal, grande o pequeña. Se puede cambiar el tamaño añadiendo las clases `.modal-lg` y `.modal-sm` junto a la de `.modal-dialog`, para hacerlas grandes o pequeñas, respectivamente. También, si añadimos la clase `.modal-dialog-centered` se centraría verticalmente.
