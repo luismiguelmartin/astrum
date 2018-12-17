@@ -102,6 +102,17 @@
           ]
       },
       {
+          "name": "icons",
+          "title": "Iconos",
+          "components": [
+              {
+                  "group": "icons",
+                  "name": "iconos",
+                  "title": "Incorporación de iconos"
+              }
+          ]
+      },
+      {
           "name": "botones",
           "title": "Botones",
           "components": [
