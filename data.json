@@ -237,7 +237,12 @@
                   "group": "tablas",
                   "name": "datatables",
                   "title": "Tablas dinámicas - DataTables"
-              }
+            },
+            {
+                "group": "tablas",
+                "name": "tablas-iconos",
+                "title": "Iconos en tablas"
+            }
           ]
       },
       {
