@@ -186,6 +186,23 @@
               },
               {
                   "group": "navegacion",
+                  "name": "tabs-iconos",
+                  "title": "Iconos en Pestañas"
+              },
+              {
+                  "group": "navegacion",
+                  "name": "card-tabs",
+                  "title": "Cards con pestañas",
+                  "width": "half"
+              },
+              {
+                  "group": "navegacion",
+                  "name": "card-pills",
+                  "title": "Cards con pastillas",
+                  "width": "half"
+              },
+              {
+                  "group": "navegacion",
                   "name": "navegador-registros",
                   "title": "Navegador de registros"
               }
