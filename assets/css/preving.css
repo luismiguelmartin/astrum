@@ -71,9 +71,9 @@ pingendo,
   display: none !important;
   visibility: hidden !important;
 }
-
-.card-header {
-  padding: 0.2rem 0rem 0.2rem 0.75rem;
+/* Cabecera personalizada para buscadores y navegador de registros*/
+.card-header.record {
+  padding: 0.2rem 0rem 0.2rem 0.75rem !important;
 }
 .modal-content {
   border-radius: 0.4rem;
