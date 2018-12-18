@@ -262,6 +262,18 @@
             },
             {
                 "group": "tablas",
+                "name": "tablas-sin-pie",
+                "title": "Tablas sin pie",
+                "width": "half"
+            },
+            {
+                "group": "tablas",
+                "name": "tablas-light",
+                "title": "Tablas ligeras",
+                "width": "half"
+            },
+            {
+                "group": "tablas",
                 "name": "tablas-iconos",
                 "title": "Iconos en tablas"
             }
