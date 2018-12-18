@@ -148,6 +148,11 @@
                   "name": "block",
                   "title": "Ancho 100%",
                   "width": "half"
+              },
+              {
+                  "group": "botones",
+                  "name": "iconos",
+                  "title": "Iconos en botones"
               }
           ]
       },
