@@ -290,12 +290,12 @@
                 },
                 {"group": "modales",
                   "name": "modal-tamanos",
-                  "title": "Tamaños diferentes y centrada verticalmente",
+                  "title": "Opciones de modales",
                   "width": "half"
                 },
                 {"group": "modales",
                   "name": "modal-avanzada",
-                  "title": "Modales Avanzadas",
+                  "title": "Modales avanzadas",
                   "width": "half"
                 }
             ]

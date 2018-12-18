@@ -1,21 +1,45 @@
 <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-  Modal básica
-</button>
+<div class="text-center">
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalPreving">
+    Modal Preving
+  </button>
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalBootstrap">
+    Modal Bootstrap
+  </button>
+</div>
 
+<!-- MODAL PREVING -->
+<div class="modal fade" id="exampleModalPreving" tabindex="-1" role="dialog" aria-labelledby="exampleModalPrevingLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header bg-primary">
+        <h5 class="modal-title text-white" id="exampleModalPrevingLabel">Modal normal</h5>
+      </div>
+      <div class="modal-body">
+        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+        Nam in felis cursus, vestibulum dolor sed, malesuada dolor. Maecenas dictum ante tortor. Ut non nulla vel ligula ornare pretium. In accumsan eu erat malesuada pharetra.
+      </div>
+      <div class="modal-footer p-4">
+        <button type="button" class="btn btn-info" data-dismiss="modal">Cancelar</button>
+        <button type="button" class="btn btn-primary">Guardar</button>
+      </div>
+    </div>
+  </div>
+</div>
 
-<!-- MODAL NORMAL -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<!-- MODAL NORMAL BOOTSTRAP -->
+<div class="modal fade" id="exampleModalBootstrap" tabindex="-1" role="dialog" aria-labelledby="exampleModalBootstrapLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal normal</h5>
+        <h5 class="modal-title" id="exampleModalBootstrapLabel">Modal normal</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        Contenido de la ventana...
+        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+        Nam in felis cursus, vestibulum dolor sed, malesuada dolor. Maecenas dictum ante tortor. Ut non nulla vel ligula ornare pretium. In accumsan eu erat malesuada pharetra.
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-info" data-dismiss="modal">Cancelar</button>

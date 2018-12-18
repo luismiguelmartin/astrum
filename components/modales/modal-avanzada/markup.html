@@ -1,81 +1,79 @@
 <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-  Lanzar modal básica
-</button>
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalAlert">
-  Modal con alerta
-</button>
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalDanger">
-  Modal con borrar/guardar
-</button>
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalProgress">
-  Modal con barra de progreso
-</button>
-
-<!-- MODAL BÁSICA -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal normal</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        Contenido de la ventana...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-info" data-dismiss="modal">Cancelar</button>
-        <button type="button" class="btn btn-primary">Guardar</button>
-      </div>
-    </div>
-  </div>
+<div class="text-center">
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+    Confirmación
+  </button>
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalAlert">
+    Alerta
+  </button>
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalDanger">
+    Guardar
+  </button>
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalProgress">
+    Progreso
+  </button>
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalScroll">
+    Scroll
+  </button>
 </div>
 
 <!-- MODAL CONFIRMACIÓN -->
-<div class="modal fade" id="exampleModalAlert" tabindex="-1" role="dialog" aria-labelledby="exampleModalAlertLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-sm modal-dialog-centered" role="document">
     <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalAlertLabel"></h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
-          <span aria-hidden="true">&times;</span>
-        </button>
+      <div class="modal-header bg-primary">
+        <h5 class="modal-title text-white" id="exampleModalLabel">Modal normal</h5>
       </div>
-      <div class="modal-body">
-        <div class="alert alert-danger mb-0" role="alert">
-          <strong>¿Seguro que desea guardar los cambios?</strong><br>
-          Se guardarán los cambios realizados en la ficha.
-        </div>
+      <div class="modal-body text-center">
+        A continuación se va a proceder a guardar los datos introducidos y generar el informe.
+        <br><br>
+        <span class="small"><strong>18-12-2018 (10:52)</strong> | IP: <strong>83.56.27.179</strong></span>
       </div>
-      <div class="modal-footer">
+      <div class="modal-footer p-4">
         <button type="button" class="btn btn-info" data-dismiss="modal">Cancelar</button>
-        <button type="button" class="btn btn-danger">Guardar</button>
+        <button type="button" class="btn btn-primary">Aceptar</button>
       </div>
     </div>
   </div>
 </div>
 
-<!-- MODAL CONFIRMACIÓN 2 -->
-<div class="modal fade" id="exampleModalDanger" tabindex="-1" role="dialog" aria-labelledby="exampleModalDangerLabel" aria-hidden="true">
+<!-- MODAL ALERTA -->
+<div class="modal fade" id="exampleModalAlert" tabindex="-1" role="dialog" aria-labelledby="exampleModalAlertLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalDangerLabel"></h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
-          <span aria-hidden="true">&times;</span>
-        </button>
+      <div class="modal-header bg-primary">
+        <h5 class="modal-title text-white" id="exampleModalAlertLabel">Alerta</h5>
       </div>
       <div class="modal-body">
         <div class="alert alert-danger mb-0" role="alert">
+          <strong>¿Seguro que desea eliminar el cliente?</strong><br>
+          Esta operación no tiene vuelta atrás.
+        </div>
+      </div>
+      <div class="modal-footer p-4">
+        <button type="button" class="btn btn-info" data-dismiss="modal">Cancelar</button>
+        <button type="button" class="btn btn-danger">Borrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- MODAL GUARDAR -->
+<div class="modal fade" id="exampleModalDanger" tabindex="-1" role="dialog" aria-labelledby="exampleModalDangerLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header bg-primary">
+        <h5 class="modal-title text-white" id="exampleModalDangerLabel">Confirmación</h5>
+      </div>
+      <div class="modal-body">
+        <div class="alert alert-info mb-0" role="alert">
           <strong>¿Seguro que desea guardar los cambios?</strong><br>
           Se guardarán los cambios realizados en la ficha.
         </div>
       </div>
-      <div class="modal-footer">
+      <div class="modal-footer p-4">
         <button type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
-        <button type="button" class="btn btn-success">Borrar</button>
+        <button type="button" class="btn btn-success">Guardar</button>
       </div>
     </div>
   </div>
@@ -85,15 +83,40 @@
 <div class="modal fade" id="exampleModalProgress" tabindex="-1" role="dialog" aria-labelledby="exampleModalProgressLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalProgressLabel">Cargando...</h5>
+      <div class="modal-header bg-primary">
+        <h5 class="modal-title text-white" id="exampleModalProgressLabel">Cargando...</h5>
       </div>
       <div class="modal-body">
         <div class="progress">
-  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
-</div>
+          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
+        </div>
       </div>
+    </div>
+  </div>
+</div>
 
+<!-- MODAL SCROLL -->
+<div class="modal fade" id="exampleModalScroll" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header bg-primary">
+        <h5 class="modal-title text-white" id="exampleModalScrollLabel">Modal normal</h5>
+      </div>
+      <div class="modal-body">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum aliquet varius mi a finibus. Sed lobortis dui risus, quis eleifend arcu tempor gravida. Maecenas cursus condimentum orci, sed egestas mauris luctus a. Ut aliquet libero eget elit fringilla sagittis. Phasellus sit amet metus sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean consectetur, enim ut semper commodo, sem ipsum tincidunt sapien, sed vulputate purus augue vel augue. In volutpat molestie fringilla. Donec semper vel neque at posuere. Nulla imperdiet, mauris eu ultricies pharetra, ex libero imperdiet quam, in pretium eros dui nec ante. Nulla sit amet enim ac ex tempus finibus. Pellentesque sodales lacus in sapien tempus convallis.
+        <br><br>
+        Aliquam erat volutpat. Aliquam vestibulum nisl quis libero cursus ullamcorper. Sed et mauris eget felis mollis ornare nec ut lacus. Cras ac turpis quis nisi pretium dictum. Vivamus lacinia laoreet sapien quis malesuada. Praesent auctor lectus id sollicitudin elementum. Integer volutpat ultrices ligula, at interdum massa pulvinar sed. Vivamus nec nisi vitae felis rutrum pulvinar semper quis augue. Suspendisse malesuada mi lectus, sit amet accumsan arcu auctor non. Quisque tincidunt, turpis at interdum accumsan, enim sapien vestibulum odio, vehicula sagittis nunc lorem non purus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus ut purus et mauris maximus mattis. Etiam viverra libero sit amet diam varius, et molestie justo maximus.
+        <br><br>
+        Maecenas varius efficitur enim eget sagittis. Sed laoreet lobortis tempus. Aliquam magna mauris, mattis nec convallis sit amet, feugiat molestie turpis. Nunc viverra orci malesuada porttitor congue. Morbi eget ipsum sit amet nisi lobortis ultricies. Pellentesque tellus lacus, varius eu odio euismod, suscipit faucibus enim. Vivamus ut finibus sapien, ut consequat justo. Maecenas blandit augue consectetur metus dignissim finibus. Morbi pellentesque pretium quam id vehicula. Vivamus placerat tincidunt leo, sed porta neque tincidunt vel.
+        <br><br>
+        Fusce ut velit id ligula vehicula molestie eget vitae lacus. Curabitur fringilla lorem vitae leo venenatis elementum egestas et odio. Sed laoreet pellentesque nulla et feugiat. Integer semper finibus dolor, eu mattis ipsum condimentum eget. Nam nec lorem in mi pulvinar malesuada. Aliquam accumsan lacus sed libero fringilla tempor. Curabitur luctus, erat nec bibendum rutrum, ipsum velit convallis libero, eget ullamcorper massa turpis at elit. Fusce dapibus vehicula bibendum. Nulla nec feugiat ipsum. Ut hendrerit pellentesque egestas. Etiam nec cursus risus. Maecenas vel ipsum maximus, congue eros eu, imperdiet velit. Aliquam fermentum arcu quis fringilla sagittis.
+        <br><br>
+        Ut vestibulum sit amet risus quis pharetra. Suspendisse maximus mauris eget quam pellentesque volutpat. Suspendisse auctor mi nec mauris aliquam laoreet. Maecenas turpis leo, convallis vitae ornare at, laoreet ac ligula. Ut tempor maximus ex, eget molestie diam vulputate non. Mauris viverra orci magna, ac aliquam quam suscipit a. In iaculis congue est, nec facilisis magna eleifend sed. Phasellus placerat erat non purus maximus, sit amet maximus orci convallis. Proin vel dictum nisi, sed pharetra purus. Nunc ut metus a urna dictum maximus. Vestibulum ultricies vestibulum urna quis hendrerit.
+      </div>
+      <div class="modal-footer p-4">
+        <button type="button" class="btn btn-info" data-dismiss="modal">Cancelar</button>
+        <button type="button" class="btn btn-primary">Aceptar</button>
+      </div>
     </div>
   </div>
 </div>
