@@ -5,4 +5,5 @@
 - Buscador para páginas de documentación: **[docsearch](https://community.algolia.com/docsearch/)**
 - Generador de sitios estáticos (entornos Laravel) **[Jigsaw](http://jigsaw.tighten.co/)**
 - Generador de sitios y apps estáticos **[Gatsby.js](https://www.gatsbyjs.org/)**
-- Framework CSS para el desarrollo rápido de interfacesa **[Tailwind CSS](https://tailwindcss.com/)**
+- Framework CSS para el desarrollo rápido de interfaces **[Tailwind CSS](https://tailwindcss.com/)**
+- Generador de sitios estáticos escritos en Markdown **[MkDocs](https://www.mkdocs.org/)**
