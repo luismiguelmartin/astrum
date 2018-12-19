@@ -54,6 +54,11 @@
                 "name": "introduccion",
                 "title": "Introducción",
                 "file": "./pages/intro.md"
+            },
+            {
+                "name": "enlaces",
+                "title": "Enlaces de interés",
+                "file": "./pages/links.md"
             }
         ]
     },
