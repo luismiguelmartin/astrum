@@ -7,3 +7,7 @@
 - Generador de sitios y apps estáticos **[Gatsby.js](https://www.gatsbyjs.org/)**
 - Framework CSS para el desarrollo rápido de interfaces **[Tailwind CSS](https://tailwindcss.com/)**
 - Generador de sitios estáticos escritos en Markdown **[MkDocs](https://www.mkdocs.org/)**
+- Generador de sitios estáticos escritos en Markdown **[MkDocs](https://www.mkdocs.org/)**
+- Otros:
+  - https://docsify.js.org
+  - https://docusaurus.io/es_ES
