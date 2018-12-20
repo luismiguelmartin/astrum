@@ -1588,7 +1588,7 @@ textarea.form-control {
       margin-bottom: 0; }
     .form-inline .form-control {
       display: inline-block;
-      width: auto;
+      /*width: auto;*/
       vertical-align: middle; }
     .form-inline .form-control-plaintext {
       display: inline-block; }
