@@ -102,7 +102,12 @@
               {
                   "group": "layout",
                   "name": "grid",
-                  "title": "Columnas"
+                  "title": "Sistema de retícula"
+              },
+              {
+                  "group": "layout",
+                  "name": "ejemplos",
+                  "title": "Ejemplos"
               }
           ]
       },

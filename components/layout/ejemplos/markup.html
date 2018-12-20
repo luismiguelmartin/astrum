@@ -1,0 +1,77 @@
+<!-- Container -->
+<div class="container pb-5">
+  <form class="form-inline form-row form-group" action="">
+    <div class="col-10">
+      <input type="text" class="form-control" id="buscador" placeholder="Texto a buscar...">
+    </div>
+    <div class="col-2">
+      <button type="submit" class="btn btn-primary w-100">BUSCAR</button>
+    </div>
+  </form>
+</div>
+
+<!-- Container -->
+<div class="container pb-5">
+  <div class="form-group row">
+    <label for="nombreDocumento" class="col-sm-1 col-form-label text-right-lg"><b>Título&nbsp;*</b></label>
+    <div class="col-sm-6">
+      <input type="text" class="form-control" id="nombreDocumento" placeholder="Nombre del documento...">
+    </div>
+    <label for="tipoDocumento" class="col-sm-1 col-form-label text-right-lg"><b>Tipo&nbsp;*</b></label>
+    <div class="col-sm-4">
+      <select class="custom-select" id="tipoDocumento">
+        <option selected="" value="Seleccione el tipo de documento">Seleccione el tipo de documento</option>
+        <option value="1">Legislación</option>
+        <option value="2">Documento</option>
+        <option value="3">Varios</option>
+        <option value="3">Informe</option>
+      </select>
+    </div>
+  </div>
+</div>
+
+<!-- Container fluido (ancho 100%) -->
+<div class="container-fluid">
+  <!-- Fila -->
+  <div class="row">
+    <!-- Columna (ancho 5/12) -->
+    <div class="col-5">
+      <div class="card">
+        <div class="card-header">
+          Ancho 5/12 del espacio
+        </div>
+        <div class="card-body" id="collapsable1">
+          <h5 class="card-title">Datos Personales</h5>
+          <p class="card-text">Nombre: <strong>Luis Miguel</strong><br>
+            Apellidos: <strong>Martín Sánchez</strong></p>
+        </div>
+      </div>
+    </div>
+    <!-- Columna (50% del ancho disponible) -->
+    <div class="col">
+      <div class="card">
+        <div class="card-header">
+          Ancho 50% del disponible
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Datos Contacto</h5>
+          <p class="card-text">Dirección: <strong>Nombre Calle, 1</strong><br>
+            Localidad: <strong>Badajoz</strong></p>
+        </div>
+      </div>
+    </div>
+    <!-- Columna (50% del ancho disponible) -->
+    <div class="col">
+      <div class="card">
+        <div class="card-header">
+          Ancho 50% del disponible
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Datos Empresa</h5>
+          <p class="card-text">Nombre: <strong>Grupo Preving</strong><br>
+            Web: <strong>www.preving.com</strong></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
