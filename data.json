@@ -123,6 +123,17 @@
           ]
       },
       {
+          "name": "forms",
+          "title": "Formularios",
+          "components": [
+              {
+                  "group": "forms",
+                  "name": "basico",
+                  "title": "Básico"
+              }
+          ]
+      },
+      {
           "name": "botones",
           "title": "Botones",
           "components": [
@@ -167,65 +178,8 @@
           ]
       },
       {
-          "name": "navegacion",
-          "title": "Navegación",
-          "components": [
-              {
-                  "group": "navegacion",
-                  "name": "navegacion-superior",
-                  "title": "Navegación Superior"
-              },
-              {
-                  "group": "navegacion",
-                  "name": "navegacion-superior-select",
-                  "title": "Navegación Superior con Selector",
-                  "width": "half"
-              },
-              {
-                  "group": "navegacion",
-                  "name": "navegacion-superior-combinado",
-                  "title": "Navegación Superior Combinado",
-                  "width": "half"
-              },
-              {
-                  "group": "navegacion",
-                  "name": "tabs",
-                  "title": "Pestañas",
-                  "width": "half"
-              },
-              {
-                  "group": "navegacion",
-                  "name": "tabs-avanzadas",
-                  "title": "Pestañas Avanzadas",
-                  "width": "half"
-              },
-              {
-                  "group": "navegacion",
-                  "name": "tabs-iconos",
-                  "title": "Iconos en Pestañas"
-              },
-              {
-                  "group": "navegacion",
-                  "name": "card-tabs",
-                  "title": "Cards con pestañas",
-                  "width": "half"
-              },
-              {
-                  "group": "navegacion",
-                  "name": "card-pills",
-                  "title": "Cards con pastillas",
-                  "width": "half"
-              },
-              {
-                  "group": "navegacion",
-                  "name": "navegador-registros",
-                  "title": "Navegador de registros"
-              }
-          ]
-      },
-      {
           "name": "buscadores",
-          "title": "Búsquedas",
+          "title": "Buscadores de registros",
           "components": [
               {
                   "group": "buscadores",
@@ -346,6 +300,63 @@
                   "name": "modal-avanzada",
                   "title": "Modales avanzadas",
                   "width": "half"
+                }
+            ]
+        },
+        {
+            "name": "navegacion",
+            "title": "Navegación",
+            "components": [
+                {
+                    "group": "navegacion",
+                    "name": "navegacion-superior",
+                    "title": "Navegación Superior"
+                },
+                {
+                    "group": "navegacion",
+                    "name": "navegacion-superior-select",
+                    "title": "Navegación Superior con Selector",
+                    "width": "half"
+                },
+                {
+                    "group": "navegacion",
+                    "name": "navegacion-superior-combinado",
+                    "title": "Navegación Superior Combinado",
+                    "width": "half"
+                },
+                {
+                    "group": "navegacion",
+                    "name": "tabs",
+                    "title": "Pestañas",
+                    "width": "half"
+                },
+                {
+                    "group": "navegacion",
+                    "name": "tabs-avanzadas",
+                    "title": "Pestañas Avanzadas",
+                    "width": "half"
+                },
+                {
+                    "group": "navegacion",
+                    "name": "tabs-iconos",
+                    "title": "Iconos en Pestañas"
+                },
+                {
+                    "group": "navegacion",
+                    "name": "card-tabs",
+                    "title": "Cards con pestañas",
+                    "width": "half"
+                },
+                {
+                    "group": "navegacion",
+                    "name": "card-pills",
+                    "title": "Cards con pastillas",
+                    "width": "half"
+                },
+                {
+                    "group": "navegacion",
+                    "name": "navegador-registros",
+                    "title": "Navegador de registros"
                 }
             ]
         },
