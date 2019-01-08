@@ -129,7 +129,14 @@
               {
                   "group": "forms",
                   "name": "basico",
-                  "title": "Básico"
+                  "title": "Básico",
+                  "width": "half"
+              },
+              {
+                  "group": "forms",
+                  "name": "boostrap",
+                  "title": "Boostrap",
+                  "width": "half"
               }
           ]
       },
