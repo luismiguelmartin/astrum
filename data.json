@@ -134,7 +134,7 @@
               },
               {
                   "group": "forms",
-                  "name": "boostrap",
+                  "name": "basico-bstrp",
                   "title": "Boostrap",
                   "width": "half"
               }
