@@ -52,18 +52,27 @@
 }
 
 /* Footer Genérico */
+/*
 main {
   margin-top: 35px;
   margin-bottom: 35px;
 }
-
-footer {
+*/
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-top: 35px;
+  margin-bottom: 50px;
+}
+.footer {
 
   /* Set the fixed height of the footer here */
   height: 35px;
   line-height: 35px; /* Vertically center the text there */
   background-color: #f5f5f5;
-  border-top: 1px solid #FFF;
+  border-top: 2px solid #FFF;
 }
 
 pingendo,
@@ -72,6 +81,9 @@ pingendo,
   visibility: hidden !important;
 }
 /* Cabecera personalizada para buscadores y navegador de registros*/
+.card-header {
+    padding: 0.2rem 0.75rem 0.2rem 0.75rem;
+}
 .card-header.record {
   padding: 0.2rem 0rem 0.2rem 0.75rem !important;
 }
