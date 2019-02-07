@@ -83,6 +83,10 @@ pingendo,
 /* Cabecera personalizada para buscadores y navegador de registros*/
 .card-header {
     padding: 0.2rem 0.75rem 0.2rem 0.75rem;
+    padding: 0.2rem 0.75rem 0.22rem 0.8rem;
+}
+.card-header.tabs {
+	padding-bottom:12px;
 }
 .card-header.record {
   padding: 0.2rem 0rem 0.2rem 0.75rem !important;
