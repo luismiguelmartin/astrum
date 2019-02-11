@@ -1,0 +1,1 @@
+Del mismo modo que en los elementos anteriores, las casillas de verificación y botones de opciones, `<input type="checkbox">` y `<input type="radio">` respectivamente, se controlan mediante la clase <code>.form-check-input</code>. En el caso de llevar etiquetas adjuntas, `<label>`, estas llevarían la clase `.form-check-label`.

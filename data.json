@@ -141,15 +141,30 @@
               {
                   "group": "forms",
                   "name": "elementos-formulario-input",
-                  "title": "Elementos",
+                  "title": "Campos de texto",
                   "width": "half"
               }
               ,
               {
                   "group": "forms",
                   "name": "elementos-formulario-select",
-                  "title": "Elementos de formulario",
+                  "title": "Desplegables, selectores y archivos",
                   "width": "half"
+              },
+              {
+                  "group": "forms",
+                  "name": "elementos-formulario-readonly",
+                  "title": "Campos en modo 'solo lectura'"
+              },
+              {
+                  "group": "forms",
+                  "name": "elementos-formulario-checkboxes",
+                  "title": "Checkboxes y radio buttons"
+              },
+              {
+                  "group": "forms",
+                  "name": "elementos-formulario-checkboxes-inline",
+                  "title": "Checkboxes inline y sin etiquetas"
               }
           ]
       },
