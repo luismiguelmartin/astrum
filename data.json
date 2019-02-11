@@ -137,6 +137,19 @@
                   "name": "basico-bstrp",
                   "title": "Boostrap",
                   "width": "half"
+              },
+              {
+                  "group": "forms",
+                  "name": "elementos-formulario-input",
+                  "title": "Elementos",
+                  "width": "half"
+              }
+              ,
+              {
+                  "group": "forms",
+                  "name": "elementos-formulario-select",
+                  "title": "Elementos de formulario",
+                  "width": "half"
               }
           ]
       },
