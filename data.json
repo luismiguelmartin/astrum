@@ -411,7 +411,7 @@
       "title": "Varios",
       "components": [{
           "group": "varios",
-          "name": "pie",
+          "name": "01-pie",
           "title": "Pie de página",
           "options": {
             "sample_dark_background": false,
@@ -420,7 +420,7 @@
         },
         {
           "group": "varios",
-          "name": "pie-log",
+          "name": "02-pie-log",
           "title": "Pie de página (con log)",
           "options": {
             "sample_dark_background": false,
