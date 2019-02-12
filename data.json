@@ -64,7 +64,7 @@
       "title": "Colores",
       "components": [{
           "group": "colores",
-          "name": "colores-preving",
+          "name": "01-colores-preving",
           "title": "Colores Preving",
           "type": "colors",
           "colors": [
@@ -77,7 +77,7 @@
         },
         {
           "group": "colores",
-          "name": "colores-aplicaciones",
+          "name": "02-colores-aplicaciones",
           "title": "Colores de aplicaciones",
           "type": "colors",
           "colors": [
