@@ -294,35 +294,35 @@
       "title": "Paginación de resultados",
       "components": [{
           "group": "pagination",
-          "name": "paginacion",
+          "name": "01-paginacion",
           "title": "Paginación por defecto"
         },
         {
           "group": "pagination",
-          "name": "paginacion-izquierda",
+          "name": "02-paginacion-izquierda",
           "title": "Paginación a la izquierda",
           "width": "half"
         },
         {
           "group": "pagination",
-          "name": "paginacion-derecha",
+          "name": "03-paginacion-derecha",
           "title": "Paginación a la derecha",
           "width": "half"
         },
         {
           "group": "pagination",
-          "name": "paginacion-small",
+          "name": "04-paginacion-small",
           "title": "Paginación alternativa"
         },
         {
           "group": "pagination",
-          "name": "paginacion-small-izquierda",
+          "name": "05-paginacion-small-izquierda",
           "title": "Paginación alternativa a la izquierda",
           "width": "half"
         },
         {
           "group": "pagination",
-          "name": "paginacion-small-derecha",
+          "name": "06-paginacion-small-derecha",
           "title": "Paginación alternativa a la derecha",
           "width": "half"
         }
