@@ -1,3 +1,5 @@
+<p>Sería recomendable agrupar los colores por servicios (salud, prevención, interno, adminisración y jurídico,...)</p>
+
 <div class="container-fluid mb-5 text-white text-center">
   <div class="row">
   <div class="col py-5 m-3 rounded" style="background-color:#D03A08"><p>Cerrar Sesión</p>
@@ -112,3 +114,5 @@
   </div>
   </div>
 </div>
+
+<h3 class="ndpl-component__title">Colores básicos Preving</h3>

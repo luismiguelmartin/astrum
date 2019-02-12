@@ -81,11 +81,11 @@
           "title": "Colores de aplicaciones",
           "type": "colors",
           "colors": [
-            "#7da9f9,#507ed3",
-            "#f469a7,#c14c80",
-            "#60ceb8,#3fa18d",
-            "#f5d13f,#f5a63f",
-            "#e199e5,#c776cb"
+            "#F7901F",
+            "#004C67",
+            "#BBBDBC",
+            "#000000",
+            "#005BA8"
           ]
         }
       ]
