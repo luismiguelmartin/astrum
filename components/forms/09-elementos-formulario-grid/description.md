@@ -1,0 +1,1 @@
+Pueden construirse formularios más complejos empleando las clases de retícula (<code>.row</code> y <code>.col-...</code>), ya que permiten crear formularios de múltiples columnas, con anchos distintos y opciones adicionales de alineación.
