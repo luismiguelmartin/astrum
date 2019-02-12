@@ -95,12 +95,12 @@
       "title": "Maquetación",
       "components": [{
           "group": "layout",
-          "name": "grid",
+          "name": "01-grid",
           "title": "Sistema de retícula"
         },
         {
           "group": "layout",
-          "name": "ejemplos",
+          "name": "02-ejemplos",
           "title": "Ejemplos"
         }
       ]
