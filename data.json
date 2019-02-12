@@ -230,29 +230,29 @@
       "title": "Buscadores de registros",
       "components": [{
           "group": "buscadores",
-          "name": "buscador-basico",
+          "name": "01-buscador-basico",
           "title": "Básico (código mínimo)",
           "width": "half"
         },
         {
           "group": "buscadores",
-          "name": "buscador-basico-bootstrap",
+          "name": "02-buscador-basico-bootstrap",
           "title": "Básico (con código Boostrap)",
           "width": "half"
         },
         {
           "group": "buscadores",
-          "name": "buscador-cabecera",
+          "name": "03-buscador-cabecera",
           "title": "Con cabecera"
         },
         {
           "group": "buscadores",
-          "name": "buscador-cabecera-filtros",
+          "name": "04-buscador-cabecera-filtros",
           "title": "Con cabecera y filtros"
         },
         {
           "group": "buscadores",
-          "name": "resultados",
+          "name": "05-resultados",
           "title": "Número de resultados"
         }
       ]
@@ -333,18 +333,18 @@
       "title": "Modales",
       "components": [{
           "group": "modales",
-          "name": "modal-basica",
+          "name": "01-modal-basica",
           "title": "Modal básica"
         },
         {
           "group": "modales",
-          "name": "modal-tamanos",
+          "name": "02-modal-tamanos",
           "title": "Opciones de modales",
           "width": "half"
         },
         {
           "group": "modales",
-          "name": "modal-avanzada",
+          "name": "03-modal-avanzada",
           "title": "Modales avanzadas",
           "width": "half"
         }
@@ -355,53 +355,53 @@
       "title": "Navegación",
       "components": [{
           "group": "navegacion",
-          "name": "navegacion-superior",
+          "name": "01-navegacion-superior",
           "title": "Navegación Superior"
         },
         {
           "group": "navegacion",
-          "name": "navegacion-superior-select",
+          "name": "02-navegacion-superior-select",
           "title": "Navegación Superior con Selector",
           "width": "half"
         },
         {
           "group": "navegacion",
-          "name": "navegacion-superior-combinado",
+          "name": "03-navegacion-superior-combinado",
           "title": "Navegación Superior Combinado",
           "width": "half"
         },
         {
           "group": "navegacion",
-          "name": "tabs",
+          "name": "04-tabs",
           "title": "Pestañas",
           "width": "half"
         },
         {
           "group": "navegacion",
-          "name": "tabs-avanzadas",
+          "name": "05-tabs-avanzadas",
           "title": "Pestañas Avanzadas",
           "width": "half"
         },
         {
           "group": "navegacion",
-          "name": "tabs-iconos",
+          "name": "06-tabs-iconos",
           "title": "Iconos en Pestañas"
         },
         {
           "group": "navegacion",
-          "name": "card-tabs",
+          "name": "07-card-tabs",
           "title": "Cards con pestañas",
           "width": "half"
         },
         {
           "group": "navegacion",
-          "name": "card-pills",
+          "name": "08-card-pills",
           "title": "Cards con pastillas",
           "width": "half"
         },
         {
           "group": "navegacion",
-          "name": "navegador-registros",
+          "name": "09-navegador-registros",
           "title": "Navegador de registros"
         }
       ]
