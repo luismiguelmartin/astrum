@@ -262,29 +262,29 @@
       "title": "Tablas",
       "components": [{
           "group": "tablas",
-          "name": "tablas",
+          "name": "01-tablas",
           "title": "Tablas estáticas"
         },
         {
           "group": "tablas",
-          "name": "datatables",
+          "name": "02-datatables",
           "title": "Tablas dinámicas - DataTables"
         },
         {
           "group": "tablas",
-          "name": "tablas-sin-pie",
+          "name": "03-tablas-sin-pie",
           "title": "Tablas sin pie",
           "width": "half"
         },
         {
           "group": "tablas",
-          "name": "tablas-light",
+          "name": "04-tablas-light",
           "title": "Tablas ligeras",
           "width": "half"
         },
         {
           "group": "tablas",
-          "name": "tablas-iconos",
+          "name": "05-tablas-iconos",
           "title": "Iconos en tablas"
         }
       ]
