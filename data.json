@@ -23,7 +23,7 @@
     "max_width": null,
     "titles": {
       "library_title": "Boostrap Aplicaciones",
-      "pages_title": "Info",
+      "pages_title": "Información",
       "components_title": "Elementos"
     }
   },
@@ -45,7 +45,7 @@
     "google_web_fonts": null
   },
   "content": {
-    "show_first_page_on_load": false,
+    "show_first_page_on_load": true,
     "title": "Introducción",
     "pages": [{
         "name": "introduccion",
@@ -144,7 +144,7 @@
         {
           "group": "forms",
           "name": "05-elementos-formulario-estados",
-          "title": "Campos en 'solo lectura', 'deshabilitados' o en 'texto-plano'"
+          "title": "Campos en solo lectura, deshabilitados o en texto-plano"
         },
         {
           "group": "forms",
@@ -199,7 +199,7 @@
         {
           "group": "botones",
           "name": "03-outline",
-          "title": "Botones contorneados (no recomendados)",
+          "title": "Botones contorneados: no recomendados",
           "options": {
             "sample_dark_background": true,
             "disable_code_sample": false
@@ -258,32 +258,32 @@
       ]
     },
     {
-      "name": "tablas",
+      "name": "tables",
       "title": "Tablas",
       "components": [{
-          "group": "tablas",
+          "group": "tables",
           "name": "01-tablas",
           "title": "Tablas estáticas"
         },
         {
-          "group": "tablas",
+          "group": "tables",
           "name": "02-datatables",
           "title": "Tablas dinámicas - DataTables"
         },
         {
-          "group": "tablas",
+          "group": "tables",
           "name": "03-tablas-sin-pie",
           "title": "Tablas sin pie",
           "width": "half"
         },
         {
-          "group": "tablas",
+          "group": "tables",
           "name": "04-tablas-light",
           "title": "Tablas ligeras",
           "width": "half"
         },
         {
-          "group": "tablas",
+          "group": "tables",
           "name": "05-tablas-iconos",
           "title": "Iconos en tablas"
         }
