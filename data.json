@@ -231,13 +231,13 @@
       "components": [{
           "group": "buscadores",
           "name": "01-buscador-basico",
-          "title": "Básico (código mínimo)",
+          "title": "Básico - código mínimo",
           "width": "half"
         },
         {
           "group": "buscadores",
           "name": "02-buscador-basico-bootstrap",
-          "title": "Básico (con código Boostrap)",
+          "title": "Básico - con código Boostrap",
           "width": "half"
         },
         {
