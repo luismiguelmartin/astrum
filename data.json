@@ -23,7 +23,7 @@
     "max_width": null,
     "titles": {
       "library_title": "Boostrap Aplicaciones",
-      "pages_title": "Información",
+      "pages_title": "Info",
       "components_title": "Elementos"
     }
   },
@@ -45,7 +45,7 @@
     "google_web_fonts": null
   },
   "content": {
-    "show_first_page_on_load": true,
+    "show_first_page_on_load": false,
     "title": "Introducción",
     "pages": [{
         "name": "introduccion",
