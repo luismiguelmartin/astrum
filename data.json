@@ -115,67 +115,71 @@
       }]
     },
     {
-      "name": "forms",
-      "title": "Formularios",
+      "name": "forms-1",
+      "title": "Formularios Básicos",
       "components": [{
-          "group": "forms",
+          "group": "forms-1",
           "name": "01-basico",
           "title": "Básico",
           "width": "half"
         },
         {
-          "group": "forms",
+          "group": "forms-1",
           "name": "02-basico-bstrp",
           "title": "Boostrap",
           "width": "half"
         },
         {
-          "group": "forms",
+          "group": "forms-1",
           "name": "03-elementos-formulario-input",
           "title": "Campos de texto",
           "width": "half"
         },
         {
-          "group": "forms",
+          "group": "forms-1",
           "name": "04-elementos-formulario-select",
           "title": "Desplegables, selectores y archivos",
           "width": "half"
         },
         {
-          "group": "forms",
+          "group": "forms-1",
           "name": "05-elementos-formulario-estados",
           "title": "Campos en solo lectura, deshabilitados o en texto-plano"
         },
         {
-          "group": "forms",
+          "group": "forms-1",
           "name": "06-elementos-formulario-checkboxes",
           "title": "Checkboxes y radio buttons"
         },
         {
-          "group": "forms",
+          "group": "forms-1",
           "name": "07-elementos-formulario-checkboxes-inline",
           "title": "Checkboxes inline y sin etiquetas"
-        },
-        {
-          "group": "forms",
+        }]
+      },
+      {
+        "name": "forms-2",
+        "title": "Formularios Avanzados",
+        "components": [{
+          "group": "forms-2",
           "name": "08-elementos-formulario-groups",
           "title": "Agrupación de elementos",
           "width": "half"
         },
         {
-          "group": "forms",
+          "group": "forms-2",
           "name": "09-elementos-formulario-grid",
           "title": "Disposición en retícula",
           "width": "half"
         },
         {
-          "group": "forms",
+          "group": "forms-2",
           "name": "10-formularios-complejos",
           "title": "Formularios complejos",
           "width": "half"
         },
         {
-          "group": "forms",
+          "group": "forms-2",
           "name": "11-formularios-horizontales",
           "title": "Formularios horizontales",
           "width": "half"
