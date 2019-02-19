@@ -1,0 +1,28 @@
+<div class="form-group">
+  <label for="fechaRegistroEjemplo"><b>Fecha *</b></label>
+  <div class="input-group date">
+    <input type="text" class="form-control" id="fechaRegistroDocumento" value="23-11-2018">
+    <div class="input-group-append">
+      <span class="input-group-text"><i class="far fa-calendar-alt"></i></span>
+    </div>
+  </div>
+</div>
+
+<!-- Se han de incluir las librerías de Datepicker -->
+<!-- CAMBIAR POR RUTAS LOCALES Y DESCOMENTAR  -->
+
+<link href="./assets/bootstrap-datepicker-1.8.0/css/bootstrap-datepicker.standalone.min.css" rel="stylesheet" type="text/css" />
+<script src="./assets/bootstrap-datepicker-1.8.0/js/bootstrap-datepicker.js" type="text/javascript"></script>
+<script src="./assets/bootstrap-datepicker-1.8.0/locales/bootstrap-datepicker.es.min.js" type="text/javascript"></script>
+
+<!-- Cambiamos todos los .datepicker -->
+
+<script type="text/javascript">
+  $('.date').datepicker({
+    format: "dd-mm-yyyy",
+    todayBtn: "linked",
+    language: "es",
+    autoclose: "true",
+    weekStart: 1
+  });
+</script>

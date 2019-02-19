@@ -1,0 +1,272 @@
+<div class="card mb-5">
+  <h5 class="card-header py-3">Nuevo documento</h5>
+  <div class="card-body">
+    <form>
+      <div class="form-group row">
+        <label for="tipoDocumento" class="col-2 col-form-label text-right"><b>Tipo *</b></label>
+        <div class="col-10">
+          <select class="custom-select" id="tipoDocumento">
+            <option selected="" value="Seleccione el tipo de documento">Seleccione el tipo de documento</option>
+            <option value="1">Legislación</option>
+            <option value="2">Documento</option>
+            <option value="3">Informe</option>
+            <option value="4">Varios</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="nombreDocumento" class="col-2 col-form-label text-right"><b>Nombre *</b></label>
+        <div class="col-10">
+          <input type="text" class="form-control" id="nombreDocumento" placeholder="Indique un nombre descriptivo al documento">
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="archivoDocumento" class="col-2 col-form-label text-right"><b>Adjunto *</b></label>
+        <div class="col-5">
+          <!-- Solo aparece en edición del documento para mostrar el adjunto
+            <div class="col-form-label"><b>nombre-archivo copia.doc <a href="#">Eliminar</a></b></div>
+          -->
+          <input type="file" id="archivoDocumento" class="mt-2">
+        </div>
+        <label for="fechaRegistroDocumento" class="col-2 col-form-label text-right"><b>Fecha *</b></label>
+        <div class="col-3 pt-2">
+          <div class="input-group date">
+            <input type="text" class="form-control" id="fechaRegistroDocumento" value="23-11-2018">
+            <div class="input-group-append">
+              <span class="input-group-text"><i class="far fa-calendar-alt"></i></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="mt-0 pb-3">
+      <div class="form-group row">
+        <label for="" class="col-2 col-form-label text-right"><b>Extranet *</b></label>
+        <div class="col-5 mt-3">
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="visibleExtrenet" id="visibleExtranet1" value="visible" checked="checked">
+            <label class="form-check-label" for="visibleExtranet1">Visible</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="visibleExtrenet" id="visibleExtranet2" value="oculto">
+            <label class="form-check-label" for="visibleExtranet2">Oculto</label>
+          </div>
+        </div>
+        <label for="fechaVisibleDocumento" class="col-2 col-form-label text-right"><b>Visible hasta</b></label>
+        <div class="col-3">
+          <div class="input-group date">
+            <input type="text" class="form-control" id="fechaVisibleDocumento">
+            <div class="input-group-append">
+              <span class="input-group-text"><i class="far fa-calendar-alt"></i></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row pt-3">
+        <label class="col-2 col-form-label text-right pt-0"><b>Aplicación *</b></label>
+        <div class="col-10 pl-4">
+          <div class="form-check col-12">
+            <input class="form-check-input" type="checkbox" value="0" id="aplicacionNacional">
+            <label class="form-check-label" for="aplicacionNacional"><b>Aplicable a todo el territorio nacional</b></label>
+          </div>
+        </div>
+      </div>
+      <!-- Listado comunidades: aparece al desmarcar el checkbox anterior -->
+      <div class="row pt-3 pb-4">
+        <label class="col-2 col-form-label text-right pt-0"><b>Comunidades Autónomas de aplicación *</b></label>
+        <div class="col-10 pt-0 ">
+          <div class="row pl-4">
+            <div class="form-check col-4">
+              <input class="form-check-input" type="checkbox" value="1" id="aplicacionAndalucia">
+              <label class="form-check-label" for="aplicacionAndalucia"> Andalucía</label>
+            </div>
+            <div class="form-check col-4">
+              <input class="form-check-input" type="checkbox" value="2" id="aplicacionAragon">
+              <label class="form-check-label" for="aplicacionAragon"> Aragón</label>
+            </div>
+            <div class="form-check col-4">
+              <input class="form-check-input" type="checkbox" value="3" id="aplicacionAsturias">
+              <label class="form-check-label" for="aplicacionAsturias">Principado de Asturias</label>
+            </div>
+            <div class="form-check col-4">
+              <input class="form-check-input" type="checkbox" value="4" id="aplicacionBaleares">
+              <label class="form-check-label" for="aplicacionBaleares">Islas Baleares</label>
+            </div>
+            <div class="form-check col-4">
+              <input class="form-check-input" type="checkbox" value="5" id="aplicacionCanarias">
+              <label class="form-check-label" for="aplicacionCanarias">Canarias</label>
+            </div>
+            <div class="form-check col-4">
+              <input class="form-check-input" type="checkbox" value="6" id="aplicacionCantabria">
+              <label class="form-check-label" for="aplicacionCantabria">Cantabria</label>
+            </div>
+            <div class="form-check col-4">
+              <input class="form-check-input" type="checkbox" value="7" id="aplicacionCastillaLaMancha">
+              <label class="form-check-label" for="aplicacionCastillaLaMancha">Castilla-La Mancha</label>
+            </div>
+            <div class="form-check col-4">
+              <input class="form-check-input" type="checkbox" value="8" id="aplicacionCastillaLeon">
+              <label class="form-check-label" for="aplicacionCastillaLeon">Castilla y León</label>
+            </div>
+            <div class="form-check col-4">
+              <input class="form-check-input" type="checkbox" value="9" id="aplicacionCataluna">
+              <label class="form-check-label" for="aplicacionCataluna">Cataluña</label>
+            </div>
+            <div class="form-check col-4">
+              <input class="form-check-input" type="checkbox" value="10" id="aplicacionComunidadValenciana">
+              <label class="form-check-label" for="aplicacionComunidadValenciana">Comunidad Valenciana</label>
+            </div>
+            <div class="form-check col-4">
+              <input class="form-check-input" type="checkbox" value="11" id="aplicacionExtremadura">
+              <label class="form-check-label" for="aplicacionExtremadura">Extremadura</label>
+            </div>
+            <div class="form-check col">
+              <input class="form-check-input" type="checkbox" value="12" id="aplicacionGalicia">
+              <label class="form-check-label" for="aplicacionGalicia">Galicia</label>
+            </div>
+            <div class="form-check col-4">
+              <input class="form-check-input" type="checkbox" value="13" id="aplicacionRioja">
+              <label class="form-check-label" for="aplicacionRioja">La Rioja</label>
+            </div>
+            <div class="form-check col-4">
+              <input class="form-check-input" type="checkbox" value="14" id="aplicacionComunidadMadrid">
+              <label class="form-check-label" for="aplicacionComunidadMadrid">Comunidad de Madrid</label>
+            </div>
+            <div class="form-check col-4">
+              <input class="form-check-input" type="checkbox" value="15" id="aplicacionRegionMurcia">
+              <label class="form-check-label" for="aplicacionRegionMurcia">Región de Murcia</label>
+            </div>
+            <div class="form-check col-4">
+              <input class="form-check-input" type="checkbox" value="16" id="aplicacionNavarra">
+              <label class="form-check-label" for="aplicacionNavarra">C. Foral de Navarra</label>
+            </div>
+            <div class="form-check col-4">
+              <input class="form-check-input" type="checkbox" value="17" id="aplicacionPaisVasco">
+              <label class="form-check-label" for="aplicacionPaisVasco">Pais Vasco</label>
+            </div>
+            <div class="form-check col-4">
+              <input class="form-check-input" type="checkbox" value="18" id="aplicacionCeutaMelilla">
+              <label class="form-check-label" for="aplicacionCeutaMelilla">Ceuta / Melilla</label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /Listado comunidades -->
+      <div class="row pt-3">
+        <label class="col-2 col-form-label text-right pt-0"><b>Actividad *</b></label>
+        <div class="col-10 pl-4">
+          <div class="form-check col-12">
+            <input class="form-check-input" type="checkbox" value="0" id="actividadSector">
+            <label class="form-check-label" for="actividadSector"><b>Todos los sectores de actividad</b></label>
+          </div>
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="filtroSectoresEj" class="col-2 col-form-label text-right"><b>Sectores *</b></label>
+        <div class="col-10">
+          <input type="text" class="form-control" id="filtroSectoresEj" placeholder="Comience a escribir para añadir sectores...">
+          <!--
+          <select class="simple-select2 custom-select w-100 select2-hidden-accessible" id="filtroSectoresEj" name="cnae[]" multiple="" data-select2-id="filtroSectoresEj" tabindex="-1" aria-hidden="true">
+            <option value="A">Agricultura, ganadería, silvicultura y pesca (A)</option>
+            <option value="B">Industrias extractivas (B)</option>
+            <option value="C">Industria manufacturera (C)</option>
+            <option value="D">Suministro de energía eléctrica, gas, vapor y aire acondicionado (D)</option>
+            <option value="E">Suministro de agua, actividades de saneamiento, gestión de residuos y descontaminación (E)</option>
+            <option value="F">Construcción (F)
+            </option>
+            <option value="G">Comercio al por mayor y al por menor; reparación de vehículos de motor y motocicletas (G)</option>
+            <option value="H">Transporte y almacenamiento (H)</option>
+            <option value="I">Hostelería (I)</option>
+            <option value="J">Información y comunicaciones (J)</option>
+            <option value="K">Actividades financieras y de seguros (K)</option>
+            <option value="L">Actividades inmobiliarias (L)</option>
+            <option value="M">Actividades profesionales, científicas y técnicas (M)</option>
+            <option value="N">Actividades administrativas y servicios auxliares (N)</option>
+            <option value="O">Administración Pública y defensa; Seguridad Social obligatoria (O)</option>
+            <option value="P">Educación (P)</option>
+            <option value="Q">Actividades sanitarias y de servicios sociales (Q)</option>
+            <option value="R">Actividades artísticas, recreativas y de entrenimiento (R)</option>
+            <option value="S">Otros servicios (S)</option>
+            <option value="T">Actividades de los hogares como empleadores de personal doméstico; actividades de los hogares como productores de bienes y servicios para uso propio (T)</option>
+            <option value="U">Actividades de organizaciones y organismos extraterritoriales (U)</option>
+
+          </select>
+          -->
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="descripcionDocumento" class="col-2 col-form-label text-right"><b>Descripción *</b></label>
+        <div class="col-10">
+          <textarea class="form-control" id="descripcionDocumento" rows="3"></textarea>
+        </div>
+      </div>
+
+      <hr class="pb-3">
+      <div class="form-group row mb-0">
+        <label for="observacionesDocumento" class="col-2 col-form-label text-right"><b>Observaciones internas</b></label>
+        <div class="col-10">
+          <textarea class="form-control" id="observacionesDocumento" rows="3"></textarea>
+        </div>
+      </div>
+
+      <div class="row mt-3">
+        <label class="col-2 col-form-label text-right"><b>Notificar mail</b></label>
+        <div class="col-10 form-row">
+          <div class="form-check form-check-inline col">
+            <input class="form-check-input" type="checkbox" name="notificarDocumento" id="notificarDocumento" value="inmediato" checked="checked">
+            <label class="form-check-label" for="notificarDocumento">Sí</label>
+          </div>
+
+        </div>
+      </div>
+    </form>
+  </div>
+  <div class="card-footer">
+    <div class="row">
+      <div class="col text-danger campos-requeridos"><b>(*) Campos requeridos</b></div>
+      <div class="col text-right">
+        <button class="btn btn-primary" type="submit">Aceptar</button>
+        <button class="btn btn-info" type="reset">Cancelar</button>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- Se han de incluir las librerías de Datepicker -->
+ <!-- CAMBIAR POR RUTAS LOCALES Y DESCOMENTAR  -->
+
+ <link href="./assets/bootstrap-datepicker-1.8.0/css/bootstrap-datepicker.standalone.min.css" rel="stylesheet" type="text/css" />
+ <script src="./assets/bootstrap-datepicker-1.8.0/js/bootstrap-datepicker.js" type="text/javascript"></script>
+ <script src="./assets/bootstrap-datepicker-1.8.0/locales/bootstrap-datepicker.es.min.js" type="text/javascript"></script>
+
+ <!-- Cambiamos todos los .datepicker -->
+
+ <script type="text/javascript">
+   $('.date').datepicker({
+     format: "dd-mm-yyyy",
+     todayBtn: "linked",
+     language: "es",
+     autoclose: "true",
+     weekStart: 1
+   });
+ </script>
+
+ <!-- Se han de incluir las librerías de Select2 -->
+ <!-- CAMBIAR POR RUTAS LOCALES  -->
+
+<!--
+ <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script> -->
+ <link href="./assets/select2/css/select2.css" rel="stylesheet" />
+ <script src="./assets/select2/js/select2.min.js"></script>
+
+ <script type="text/javascript">
+       $(document).ready(function() {
+           $('.simple-select2').select2({
+             placeholder: 'Comienza a escribir o pulsa para seleccionar sectores/CNAE.'
+           });
+       });
+       $('.simple-select2').select2({
+         placeholder: 'Comienza a escribir o pulsa para seleccionar sectores/CNAE.'
+       });
+   </script>
