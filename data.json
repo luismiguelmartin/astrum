@@ -183,6 +183,27 @@
           "name": "11-formularios-horizontales",
           "title": "Formularios horizontales",
           "width": "half"
+        },
+        {
+          "group": "forms-2",
+          "name": "12-formulario-completo-plugins",
+          "title": "Formulario completo con plugins"
+        }]
+        },
+        {
+          "name": "forms-3",
+          "title": "Plugins para formularios",
+          "components": [{
+          "group": "forms-3",
+          "name": "13-datapicker",
+          "title": "DataPicker actualizado",
+          "width": "half"
+        },
+        {
+          "group": "forms-3",
+          "name": "14-select-buscable",
+          "title": "Select múltiple buscable",
+          "width": "half"
         }
       ]
     },
